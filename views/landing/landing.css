@@ -1,0 +1,46 @@
+#landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+#landing-input{
+    background-color:#18181B;
+    color: #fff;
+    border:0;
+    
+}
+
+#landing-input:focus{
+    outline: none;
+}
+
+.button-count{
+    padding:2vw 5vh;
+    border:0;
+    border-radius: 63px;
+    /* position: absolute; */
+    /* right:1vw; */
+    color: #fff;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(255,0,236,1) 100%);
+}
+
+#landing-button-input{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    padding:1vw;
+    border:0;
+    border-radius: 63px;
+    background-color:#18181B;
+    color: #fff;
+}
